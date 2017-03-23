@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+header {
+    background-color: #404041;
+}
+
+h1 {
+    color: #E6E7E8;
+    font-size: 47px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    padding: 13px;
+}
+
+span {
+    color: #ED458B;
+    font-weight: 700;
+}
+
+/*button {
+    background-color: #929497;
+    color: #FFF;
+}*/
+
+button:hover {
+    background-color: #EB008B;
+    color: #FFF;
+}
+
+.last-guess {
+    color: #404041;
+}
+
+#enter-guess {
+    width: 375px;
+    height: 35px;
+    border: 2.5px solid rgb(208,209,210);
+    font-size: 24px;
+    font-weight: 300;
+    padding-left: 10px;
+    font-family: inherit;
+    margin: 39px 0px;
+}
+
+input {
+    margin-top: 41px;
+    margin-bottom: 41px;
+}
+
+.button:disabled {
+    margin: 0px 15px;
+    background-color: #D0D2D3;
+    color: #FFF;
+    font-family: inherit;
+    padding: 0px 0px 5px 0px;
+    border-radius: 25px;
+    box-shadow: none;
+    border: 0px;
+}
+
+.button {
+    background-color:#929497;
+    margin: 0px 15px;
+    color: #FFF;
+    font-family: inherit;
+    padding: 0px 0px 5px 0px;
+    border-radius: 25px;
+    box-shadow: none;
+    border: 0px;
+}
+
+.top-two-buttons {
+    font-size: 24px;
+    width: 173px;
+    height: 37px;
+}
+
+.above {
+    margin-top: 48px;
+    margin-bottom: 6px;
+}
+
+.last-guess-text {
+    font-size: 24px;
+}
+
+.below {
+    margin-top: 6px;
+    margin-bottom: 48px;
+}
+
+
+.display-user-guess {
+    color: #EB008B;
+    font-size: 168px;
+    line-height: 170px;
+    width: 505px;
+    height: 170px;
+    margin: auto;
+}
+
+#reset-button {
+    font-size: 17px;
+    width: 375px;
+    height: 31px;
+    margin-bottom: 75px;
+}

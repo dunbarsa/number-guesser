@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html>
+
+    <head>
+        <title>Sasha's Number Guesser</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+
+        <main>
+            <header>
+                <h1><span>Number</span> Guesser</h1>
+            </header>
+
+                <div>
+                    <label for="enter-guess"></label>
+                    <input type="number" id="enter-guess" placeholder="Enter your guess" />
+                </div>
+
+                <div>
+                    <button id="guess-button" class="button top-two-buttons">Guess</button>
+                    <button id="clear-button" class="button top-two-buttons" onclick="clearField();">Clear</button>
+                </div>
+
+                <p class="last-guess-text above">Your last guess was</p>
+
+                <div class="display-user-guess">25</div>
+
+                <p id="reply-to-user" class="last-guess-text below">That is too high</p>
+
+                <button id="reset-button" class="button reset-button enabled">Reset</button>
+
+        </main>
+
+        <script type="text/javascript" src="main.js"></script>
+
+    </body>
+</html>
